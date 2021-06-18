@@ -42,7 +42,7 @@ void menu(){
 
 }
 void sair(){
-    ;
+    return 0;
 }
 void registar (){
     printf("Digite o Nome do aluno");
