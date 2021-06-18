@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-typedef struct Trabalho{
+struct Trabalho{
     char nomeEstudante[50], apelido[50];
     int codigoEstudante, nivel;
     float nota;
@@ -42,7 +42,7 @@ void menu(){
 
 }
 void sair(){
-    exit();
+    ;
 }
 void registar (){
     printf("Digite o Nome do aluno");
